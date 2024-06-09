@@ -1,0 +1,14 @@
+// Створення Item вузлів
+CREATE (item1:Item {id: 1, name: 'iPhone 12', price: 799}),
+       (item2:Item {id: 2, name: 'Samsung Galaxy S21', price: 999}),
+       (item3:Item {id: 3, name: 'Sony PlayStation 5', price: 499});
+
+// Створення Customer вузлів
+CREATE (customer1:Customer {id: 1, name: 'John Doe'}),
+       (customer2:Customer {id: 2, name: 'Alice Smith'}),
+       (customer3:Customer {id: 3, name: 'Bob Johnson'});
+
+// Створення Order вузлів
+CREATE (order1:Order {id: 1, date: date('2024-06-10')}),
+       (order2:Order {id: 2, date: date('2024-06-09')}),
+       (order3:Order {id: 3, date: date('2024-06-08')});
